@@ -1,0 +1,64 @@
+James Chuong CS349 W13 A3
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How to run:
+make 	 - compiles and runs
+make run - runs the program
+
+How to use:
+
+---------
+Draw Mode
+---------
+On startup, you are in this mode by default.  You can click and drag on
+the pad to draw lines as you wish.  Click and drag the slider at the bottom
+to change the time/frame you wish to draw in.
+
+Drawing in a frame will show the drawing from that frame until erased.
+Drawings in a frame, then going back in time will hide the drawing until
+that point in time is reached again (sliding the time slider, starting
+the animation).
+
+----------
+Erase Mode
+----------
+Erasing allows you to click and drag around the drawing area, removing
+any line that intersects with the line you are creating as you erase.
+Erasing removes the line from that from until the end of time.
+
+-----------
+Select Mode
+-----------
+Selection mode allows you to draw a line(shape) that encompasses one or more lines
+If the lines are fully encompassed, then the lines are selected and can be
+manipulated by holding shift and dragging them. 
+This animates them across the next frames
+
+Selected lines are highlighted in blue.  To unselect lines, change modes.
+
+Selected lines can be MOVED by HOLDING SHIFT and dragging the mouse.
+------------
+Clear Button
+------------
+The same as Erase, but instead clears the whole screen instead
+of selecting individual lines.
+
+------------
+Play Button
+------------
+Starts playing the animation from the current frame.
+
+------------
+Pause Button
+------------
+Pauses the animation.  This states is automatically switched to
+if you attempt to draw, erase, clear frames, etc.
+
+------------
+Add Frame
+------------
+Adds one more frame to right of the current frame, allowing for more 
+time for animations
+
+ENHANCEMENTS
+Colour palette allows user to choose the colour of the drawing.
